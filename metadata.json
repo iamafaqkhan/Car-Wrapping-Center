@@ -1,0 +1,6 @@
+{
+  "name": "Car Wrapping Center - Pavia",
+  "description": "Premium Car Wrapping, PPF (Paint Protection Film), and Custom Automotive Styling in Pavia and Villanterio, Italy. 5.0 Star Rated on Google Maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="it" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Fix for environment Window.fetch getter constraint -->
+    <script>
+      (function() {
+        try {
+          var origFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return origFetch;
+            },
+            set: function(val) {
+              origFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          try {
+            var proto = typeof Window !== 'undefined' ? Window.prototype : Object.getPrototypeOf(window);
+            if (proto) {
+              var pFetch = proto.fetch || window.fetch;
+              Object.defineProperty(proto, 'fetch', {
+                get: function() { return pFetch; },
+                set: function(val) { pFetch = val; },
+                configurable: true,
+                enumerable: true
+              });
+            }
+          } catch (err) {}
+        }
+      })();
+    </script>
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Car Wrapping Center | Premium Car Wrap & PPF Pavia, Italy (5.0★ Google)</title>
+    <meta name="title" content="Car Wrapping Center | Premium Car Wrap & PPF Pavia, Italy" />
+    <meta name="description" content="Best Car Wrapping in Pavia & Villanterio, Italy. Professional vinyl color change wraps, self-healing PPF, chrome delete, and fleet graphics. 5.0/5 Google Maps rating. Get a free quote on WhatsApp!" />
+    <meta name="keywords" content="Best Car Wrapping in Pavia, Vinyl Wrap Villanterio, Car Wrapping Center Italy, Auto wrap near me, Pellicole auto Pavia, PPF Pavia, Paint Protection Film Lodi, Car wrapping Milano sud, Wrapping auto sportive" />
+    <meta name="author" content="Car Wrapping Center" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://carwrappingcenter.it" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:site_name" content="Car Wrapping Center" />
+    <meta property="og:title" content="Car Wrapping Center | Transform Your Ride - Pavia, Italy" />
+    <meta property="og:description" content="Professional Vinyl Wraps, Self-Healing PPF, and Custom Automotive Detailing in Villanterio & Pavia. Perfect 5.0/5 Google Maps rating." />
+    <meta property="og:url" content="https://carwrappingcenter.it" />
+    <meta property="og:locale" content="it_IT" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Car Wrapping Center | Premium Car Wrap in Pavia, Italy" />
+    <meta name="twitter:description" content="Professional Vinyl Wraps, PPF, and Custom Detailing in Via Lambro, 27019 Villanterio PV. 5.0★ Google rating." />
+
+    <!-- Theme & Icons -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Google Fonts: Montserrat (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD Structured Data for LocalBusiness / AutoBodyShop -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoBodyShop",
+      "@id": "https://carwrappingcenter.it/#business",
+      "name": "Car Wrapping Center",
+      "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80",
+      "telephone": "+39 351 465 8227",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Lambro",
+        "addressLocality": "Villanterio",
+        "postalCode": "27019",
+        "addressRegion": "PV",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.2162,
+        "longitude": 9.3586
+      },
+      "url": "https://carwrappingcenter.it",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "58",
+        "ratingCount": "58"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "paymentAccepted": "Credit Card, Debit Card, NFC, Apple Pay, Google Pay, Cash",
+      "currenciesAccepted": "EUR",
+      "areaServed": [
+        "Villanterio",
+        "Pavia",
+        "Lodi",
+        "Milano Sud",
+        "Sant'Angelo Lodigiano",
+        "Belgioioso",
+        "Lombardia"
+      ],
+      "description": "Studio specializzato in Car Wrapping, PPF (Pellicole Protettive per Auto), Oscuramento Vetri e Grafiche Aziendali a Villanterio (Pavia). Valutazione 5.0 stelle Google Maps."
+    }
+    </script>
+
+    <!-- Schema.org FAQPage JSON-LD for Google Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a premium vinyl car wrap last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A high-quality, professional vinyl wrap can last anywhere from 5 to 7 years depending on how well it is maintained and its exposure to the sun. We use premium materials that withstand the Italian climate, keeping your car looking fresh for years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a custom vinyl wrap damage my car's original paint?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, absolutely not! In fact, a vinyl car wrap acts as a protective layer against light scratches, stone chips, and UV rays. As long as your car has its original factory paint, removing the wrap will leave the paint looking exactly as it did the day the wrap was applied."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you wrap a car that has scratches, dents, or rust?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vinyl wrap conforms tightly to the surface of the vehicle. This means it will show existing scratches, dents, or peeling clear coat. For a flawless finish, we recommend repairing deep scratches or dents before applying the wrap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best way to wash and maintain a wrapped vehicle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We highly recommend hand washing your wrapped car using a soft microfiber sponge and pH-neutral car wash soap. Avoid automatic car washes with harsh brushes, and keep the pressure washer at a safe distance to prevent lifting the edges of the vinyl."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a full custom car wrap installation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full car wrap usually takes between 3 to 5 business days. This timeframe allows our team at Car Wrapping Center to meticulously clean, prep, disassemble necessary parts, and apply the wrap with absolute perfection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a professional car wrapping cost in Pavia, Italy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost of a car wrap depends on the size of your vehicle, the type of vinyl (matte, gloss, chrome, or color-shift), and the complexity of the installation. Contact us via WhatsApp at +39 351 465 8227 or visit us in Villanterio for a free, customized quote!"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#0b0c10] text-[#e0e2ec] antialiased selection:bg-[#ccff00] selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
