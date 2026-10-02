@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/p/Car-wrapping-center-61553193233178/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
